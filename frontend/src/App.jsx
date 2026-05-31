@@ -1,6 +1,6 @@
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
-import ParticleBackground from "./components/ParticleBackground";
+
 
 import About from "./sections/About";
 import Skills from "./sections/Skills";
