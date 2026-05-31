@@ -12,7 +12,7 @@ import Achievements from "./sections/Achievements";
 function App() {
   return (
     <>
-      <ParticleBackground />
+
 
       <div
         style={{
