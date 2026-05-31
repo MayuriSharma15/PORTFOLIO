@@ -182,3 +182,113 @@
     border-right-color: var(--border);
   }
 }
+
+/* RESPONSIVE DESIGN */
+
+* {
+  box-sizing: border-box;
+  }
+
+html,
+body {
+overflow-x: hidden;
+}
+
+img {
+max-width: 100%;
+height: auto;
+}
+
+section {
+width: 100%;
+overflow-x: hidden;
+}
+
+/* TABLETS */
+@media (max-width: 1024px) {
+
+h1 {
+font-size: 48px !important;
+}
+
+h2 {
+font-size: 36px !important;
+}
+
+p {
+font-size: 15px !important;
+}
+
+.container,
+.wrapper,
+.hero-content {
+padding: 0 20px !important;
+}
+}
+
+/* MOBILE */
+@media (max-width: 768px) {
+
+body {
+overflow-x: hidden;
+}
+
+h1 {
+font-size: 34px !important;
+line-height: 1.2;
+}
+
+h2 {
+font-size: 28px !important;
+}
+
+h3 {
+font-size: 22px !important;
+}
+
+p {
+font-size: 14px !important;
+line-height: 1.6;
+}
+
+section {
+padding: 70px 20px !important;
+}
+
+button {
+width: 100%;
+}
+
+/* FLEX LAYOUTS */
+.flex,
+.hero,
+.about-container,
+.contact-container,
+.project-container {
+flex-direction: column !important;
+text-align: center;
+}
+
+/* GRID LAYOUTS */
+.grid {
+grid-template-columns: 1fr !important;
+}
+
+/* NAVBAR */
+nav {
+padding: 15px 20px !important;
+}
+
+ul {
+gap: 12px !important;
+flex-wrap: wrap;
+justify-content: center;
+}
+
+/* CARDS */
+.card,
+.project-card,
+.skill-card {
+width: 100% !important;
+}
+}
