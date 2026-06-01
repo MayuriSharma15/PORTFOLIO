@@ -50,34 +50,34 @@ export default function Projects() {
     >
       <div className="max-w-6xl mx-auto">
 
-        <motion.h2
-          initial={{opacity:0,y:30}}
-          whileInView={{opacity:1,y:0}}
-          viewport={{once:true}}
-          transition={{duration:0.6}}
-          style={{
-            fontSize:"42px",
-            fontWeight:"700",
-            textAlign:"center"
-          }}
-        >
-          Featured Projects
-        </motion.h2>
+      <motion.h2
+  initial={{ opacity:0, y:30 }}
+  whileInView={{ opacity:1, y:0 }}
+  viewport={{ once:true }}
+  transition={{ duration:0.6 }}
+  style={{
+    fontSize:"58px",
+    fontWeight:"700",
+    color:"#22d3ee",
+    marginBottom:"15px"
+  }}
+>
+  Projects
+</motion.h2>
 
-        <motion.p
-          initial={{opacity:0}}
-          whileInView={{opacity:1}}
-          viewport={{once:true}}
-          transition={{delay:0.2}}
-          style={{
-            textAlign:"center",
-            color:"#94a3b8",
-            marginTop:"10px"
-          }}
-        >
-          Full-stack projects showcasing design and development skills
-        </motion.p>
-
+<motion.p
+  initial={{ opacity:0 }}
+  whileInView={{ opacity:1 }}
+  viewport={{ once:true }}
+  transition={{ delay:0.2 }}
+  style={{
+    color:"#94a3b8",
+    marginBottom:"50px",
+    fontSize:"18px"
+  }}
+>
+  Full-stack projects showcasing design and development skills
+</motion.p>
         <div
           style={{
             display:"grid",

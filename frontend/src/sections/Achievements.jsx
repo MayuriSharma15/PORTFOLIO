@@ -45,34 +45,30 @@ color: "white",
 }}
 > <div className="max-w-6xl mx-auto">
 
-```
-    <motion.h2
-      initial={{ opacity: 0, y: 30 }}
-      whileInView={{ opacity: 1, y: 0 }}
-      viewport={{ once: true }}
-      transition={{ duration: 0.6 }}
-      style={{
-        textAlign: "center",
-        fontSize: "42px",
-        fontWeight: "bold",
-      }}
-    >
-      Achievements
-    </motion.h2>
+<motion.h2
+  initial={{ opacity:0, y:30 }}
+  whileInView={{ opacity:1, y:0 }}
+  viewport={{ once:true }}
+  transition={{ duration:0.6 }}
+  style={{
+    fontSize:"58px",
+    fontWeight:"700",
+    color:"#22d3ee",
+    marginBottom:"15px"
+  }}
+>
+  Achievements
+</motion.h2>
 
-    <motion.p
-      initial={{ opacity: 0 }}
-      whileInView={{ opacity: 1 }}
-      viewport={{ once: true }}
-      transition={{ delay: 0.2 }}
-      style={{
-        textAlign: "center",
-        color: "#94a3b8",
-        marginTop: "10px",
-      }}
-    >
-      Academic and professional milestones
-    </motion.p>
+<p
+  style={{
+    color:"#94a3b8",
+    marginBottom:"50px",
+    fontSize:"18px"
+  }}
+>
+  Academic and professional milestones
+</p>
 
     <div
       style={{
